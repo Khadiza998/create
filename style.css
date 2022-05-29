@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color:#273053 ;
+    padding: 20px 0;
+
+}
+.container{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    overflow: hidden;
+
+
+}
+.logo{
+    width: 15%;
+     /* border: 1px solid red;   */
+    float: left;
+    
+    font-size: 50px;
+    margin-top: 7px;
+
+}
+.logo img{
+    width: 100%;
+   
+
+}
+.logo:hover{
+  color: #273053;
+
+}
+.container2{
+    width: 80%;
+    float: right;
+     /* border: 1px solid yellow;  */
+    margin-top: ;
+
+}
+.menu{
+    float:left ;
+    width: 80%;
+     /* border: 1px solid yellow;  */
+    margin-top: 20px;
+
+    
+    
+
+}
+
+.menu ul{
+    float: right;
+  
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+
+}
+
+.menu ul li a{
+    
+   display: block;
+    text-decoration: none;
+    color:#f7ede6;
+    padding: 0 25px;
+    font size: 17p5x;
+    transition: .5s;
+   
+
+
+}
+
+
+.menu ul li a:hover{
+    color: #1b87b4;
+
+
+}
+.menu ul li:last-child a{
+    padding-right:0;
+  
+}
+
+.buy{
+    background-color:#0d6efd;
+    width: 15%;
+    color: #f7ede6;
+    text-align: center;
+    padding: 14px 5px;
+    float: right;
+    font-size: 15px;
+    /* border: 1px solid red; */
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 9px;
+    
+
+   
+   
+
+
+
+
+}
+.buy:hover{
+    background-color: #0dcaf0;
+    color:#f7ede6 ;
+}
